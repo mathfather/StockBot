@@ -1,0 +1,34 @@
+// Common entities to be imported and reused
+~[hi]
+    你好
+    您好
+    早上好
+    下午好
+    晚上好
+    hi
+    hey
+    hello
+
+~[please]
+    请
+
+~[thanks]
+    谢谢
+    谢谢您
+    谢谢你
+    感谢
+    十分感谢
+
+~[help]
+    帮我
+    帮助我
+
+~[find]
+    找
+    找到
+    搜索
+    查询
+
+~[tell]
+    告诉我
+

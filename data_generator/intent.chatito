@@ -1,0 +1,98 @@
+import ./common.chatito
+import ./symbol.chatito
+
+%[FindName]('training': '500', 'testing': '50')
+    *[20] ~[hi?] ~[please?] ~[help?] ~[find] @[symbol]'s ~[name] ~[thanks?]
+    *[20] ~[hi?] ~[please?] ~[tell] @[symbol]'s ~[name] ~[thanks?]
+    *[10] @[symbol]'s ~[name] ~[thanks?]
+    *[20] ~[hi?] ~[please?] ~[help?] ~[find] ~[the?] ~[name] of @[symbol] ~[thanks?]
+    *[20] ~[hi?] ~[please?] ~[tell] ~[the?] ~[name] of @[symbol] ~[thanks?]
+    *[10] ~[the?] ~[name] of @[symbol] ~[thanks?]
+
+%[FindListDate]('training': '500', 'testing': '50')
+    *[10] ~[hi?] ~[please?] ~[help?] ~[find] @[symbol]'s ~[listdate] ~[thanks?]
+    *[10] ~[hi?] ~[please?] ~[tell] @[symbol]'s ~[listdate] ~[thanks?]
+    *[10] @[symbol]'s ~[listdate] ~[thanks?]
+    *[10] ~[hi?] ~[please?] ~[help?] ~[find] ~[the?] ~[listdate] of @[symbol] ~[thanks?]
+    *[10] ~[hi?] ~[please?] ~[tell] ~[the?] ~[listdate] of @[symbol] ~[thanks?]
+    *[10] ~[the?] ~[listdate] of @[symbol] ~[thanks?]
+    *[40] ~[hi?] ~[please?] ~[tell] the date ~[that?] @[symbol] ~[tradedfirsttime] ~[thanks?]
+
+%[FindId]('training': '500', 'testing': '50')
+    *[20] ~[hi?] ~[please?] ~[help?] ~[find] @[symbol]'s ~[id] ~[thanks?]
+    *[20] ~[hi?] ~[please?] ~[tell] @[symbol]'s ~[id] ~[thanks?]
+    *[10] @[symbol]'s ~[id] ~[thanks?]
+    *[20] ~[hi?] ~[please?] ~[help?] ~[find] ~[the?] ~[id] of @[symbol] ~[thanks?]
+    *[20] ~[hi?] ~[please?] ~[tell] ~[the?] ~[id] of @[symbol] ~[thanks?]
+    *[10] ~[the?] ~[id] of @[symbol] ~[thanks?]
+
+%[Tradeable]('training': '500', 'testing': '50')
+    *[15] ~[hi?] ~[please?] ~[help?] ~[find] @[symbol]'s ~[tradeable_status] ~[thanks?]
+    *[15] ~[hi?] ~[please?] ~[tell] @[symbol]'s ~[tradeable_status] ~[thanks?]
+    *[5] @[symbol]'s ~[tradeable_status] ~[thanks?]
+    *[15] ~[hi?] ~[please?] ~[help?] ~[find] ~[the?] ~[tradeable_status] of @[symbol] ~[thanks?]
+    *[15] ~[hi?] ~[please?] ~[tell] ~[the?] ~[tradeable_status] of @[symbol] ~[thanks?]
+    *[5] ~[the?] ~[tradeable_status] of @[symbol] ~[thanks?]
+    *[10] ~[hi?] ~[please?] ~[tell] whether @[symbol] ~[tradeable_if] ~[thanks?]
+    *[10] ~[hi?] ~[please?] ~[tell] if @[symbol] ~[tradeable_if] ~[thanks?]
+    *[10] Is @[symbol] tradeable ~[or_not?] ~[thanks?]
+
+%[State]('training': '500', 'testing': '50')
+    *[15] ~[hi?] ~[please?] ~[help?] ~[find] @[symbol]'s ~[state] ~[thanks?]
+    *[15] ~[hi?] ~[please?] ~[tell] @[symbol]'s ~[state] ~[thanks?]
+    *[5] @[symbol]'s ~[state] ~[thanks?]
+    *[15] ~[hi?] ~[please?] ~[help?] ~[find] ~[the?] ~[state] of @[symbol] ~[thanks?]
+    *[15] ~[hi?] ~[please?] ~[tell] ~[the?] ~[state] of @[symbol] ~[thanks?]
+    *[5] ~[the?] ~[state] of @[symbol] ~[thanks?]
+    *[10] ~[hi?] ~[please?] ~[tell] whether @[symbol] ~[state_if] ~[thanks?]
+    *[10] ~[hi?] ~[please?] ~[tell] if @[symbol] ~[state_if] ~[thanks?]
+    *[10] Is @[symbol] active ~[or_not?] ~[thanks?]
+
+%[FindBloomberg]('training': '500', 'testing': '50')
+    *[20] ~[hi?] ~[please?] ~[help?] ~[find] @[symbol]'s ~[bloomberg] ~[thanks?]
+    *[20] ~[hi?] ~[please?] ~[help?] ~[find] ~[the?] ~[bloomberg] of @[symbol] ~[thanks?]
+    *[20] ~[hi?] ~[please?] ~[tell] @[symbol]'s ~[bloomberg] ~[thanks?]
+    *[20] ~[hi?] ~[please?] ~[tell] ~[the?] ~[bloomberg] of @[symbol] ~[thanks?]
+    *[10] @[symbol]'s ~[bloomberg] ~[thanks?]
+    *[10] ~[the?] ~[bloomberg] of @[symbol] ~[thanks?]
+
+~[name]
+    name
+    full name
+
+~[listdate]
+    list date
+
+~[tradedfirsttime]
+    was first traded publically on the exchange
+    was first traded publically on Robinhood
+    was first traded publically
+    was publically traded for the first time
+    was publically traded for the first time on the exchange
+    was publically traded for the first time on Robinhood
+
+~[id]
+    id
+    instrument id
+
+~[tradeable_status]
+    tradeable status
+
+~[tradeable_if]
+    can be traded
+    is tradeable
+    can be traded on Robinhood
+    is tradeable on Robinhood
+
+~[state]
+    state
+
+~[state_if]
+    is active
+    is available
+    is active on Robinhood
+    is available on Robinhood
+
+~[bloomberg]
+    bloomberg
+    bloomberg id

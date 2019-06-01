@@ -1,0 +1,37 @@
+// Common entities to be imported and reused
+~[hi]
+    hi
+    hey
+    hello
+
+~[please]
+    please
+    plz
+    could you please
+    would you please
+
+~[thanks]
+    thanks
+    thank you
+    thanks a lot
+
+~[help]
+    help me
+
+~[find]
+    find
+    search for
+    search
+
+~[tell]
+    tell me
+    show me    
+
+~[that]
+    that
+
+~[the]
+    the
+
+~[or_not]
+    or not
