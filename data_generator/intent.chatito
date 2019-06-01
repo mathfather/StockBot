@@ -56,6 +56,13 @@ import ./symbol.chatito
     *[10] @[symbol]'s ~[bloomberg] ~[thanks?]
     *[10] ~[the?] ~[bloomberg] of @[symbol] ~[thanks?]
 
+%[None]('training': '4000', 'testing': '400')
+    ~[hi?] @[symbol]
+    *[30] ~[hi?] the entity is @[symbol]
+    *[30] ~[hi?] the ~[stock] is @[symbol]
+    ~[hi?] the ~[stock]'s name is @[symbol]
+    ~[hi?] the ~[stock]'s symbol is @[symbol]
+
 ~[name]
     name
     full name
@@ -96,3 +103,8 @@ import ./symbol.chatito
 ~[bloomberg]
     bloomberg
     bloomberg id
+
+~[stock]
+    stock
+    security
+    share

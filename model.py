@@ -30,5 +30,5 @@ class nlu_model(object):
 # test
 if __name__ == '__main__':
     a = nlu_model()
-    result = a.interpreter.parse(u"tell me the Bloomberg")
+    result = a.interpreter.parse(u"bloomberg")
     print(result)
