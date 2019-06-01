@@ -18,5 +18,5 @@ def auto_reply(msg):
     # print(final_reply)
     return final_reply
 
-embed()
-#bot.join()
+# embed()
+bot.join()
