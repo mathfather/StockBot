@@ -1,5 +1,7 @@
 # Stock Chatbot
 
+This is a task-oriented chatbot for searching stock information. The chatbot uses Rasa-NLU to extract intents and entities from the users' input; After that, the bot uses the extracted information to automatically create an inquiry and utilize the inquiry to search the information; Finally, the bot generalizes an answer using the pre-defined template and returns it to the user.
+
 ## **Requirements**
 - Python(==3.6)
 - Twisted
@@ -35,7 +37,7 @@ To run the bot on wechat, run:</p>
 
 Scanned the QR code on screen with your wechat app to make your account the host of the bot.
 
-Then, use your own natural language to ask the chatbot your question. An example is listed belowed.
+Then, use your own natural language to ask the chatbot your question. An conversation example is listed belowed.
 ![](https://github.com/mathfather/StockBot/blob/master/display/chat_example_1.png)
 
 ## **Use the automatic generated testing set to verify your model's accuracy**
