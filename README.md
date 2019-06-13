@@ -1,5 +1,16 @@
 # Stock Chatbot
 
+## **Requirements**
+- Python(==3.6)
+- Twisted
+- Rasa NLU
+- chatito
+- rasa-nlu-trainer
+- wxpy
+
+## **Installation**
+<code>git clone https://github.com/mathfather/StockBot</code>
+
 ## **Generate training and testing data**
 Open the root folder. Generate the data using the following command:</p>
 <code>npx chatito data_generator/intent.chatito --format=rasa --outputPath=data --trainingFileName=trainingset.json --testingFileName=testingset.json intent.chatito</code>
