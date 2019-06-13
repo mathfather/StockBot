@@ -1,6 +1,6 @@
 # Stock Chatbot
 
-This is a task-oriented chatbot for searching stock information. The chatbot uses Rasa-NLU to extract intents and entities from the users' input; After that, the bot uses the extracted information to automatically create an inquiry and utilize the inquiry to search the information; Finally, the bot generalizes an answer using the pre-defined template and returns it to the user.
+This is a task-oriented chatbot for searching stock information. The chatbot uses Rasa-NLU to extract intents and entities from the input. After that, the chatbot uses the extracted information to automatically create an inquiry and utilize the inquiry to search about the information. Finally, the chatbot generates an answer using the pre-defined templates and returns it to users.
 
 ## **Requirements**
 - Python(==3.6)
