@@ -26,9 +26,3 @@ class nlu_model(object):
         training_data = load_data(data)
         self.interpreter = trainer.train(training_data)
         trainer.persist(saving_path)
-
-# test
-if __name__ == '__main__':
-    a = nlu_model()
-    result = a.interpreter.parse(u"bloomberg")
-    print(result)
