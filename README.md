@@ -37,7 +37,7 @@ To run the bot on wechat, run:</p>
 
 Scanned the QR code on screen with your wechat app to make your account the host of the bot.
 
-Then, use your own natural language to ask the chatbot your question. An conversation example is listed belowed.
+Then, use your own natural language to ask the chatbot your question. Conversation examples are listed belowed.
 ![](https://github.com/mathfather/StockBot/blob/master/display/chat_example_1.png)
 ![](https://github.com/mathfather/StockBot/blob/master/display/chat_example_2.png)
 
