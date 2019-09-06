@@ -6,10 +6,10 @@ def test(testset=testing_data):
     model = nlu_model()
     with open(testset, 'r') as f:
         test_data = json.load(f)
-        intances = test_data['rasa_nlu_data']['common_examples']
-        total = float(len(intances))
+        instances = test_data['rasa_nlu_data']['common_examples']
+        total = float(len(instances))
         accuracy = 0.0
-        for instance in intances:
+        for instance in instances:
             intent = instance['intent']
             entity = instance['entities'][0]['value']
             text = instance['text']
